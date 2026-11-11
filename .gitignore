@@ -27,3 +27,38 @@ __pycache__/
 
 # Prepared packages contain private original game data.
 *.halopad.zip
+# PragSync Workspace Hygiene
+*.py[cod]
+.pytest_cache/
+node_modules/
+.next/
+**/.next/
+.turbo/
+**/vendor/bundle/
+.venv/
+venv/
+.build/
+build/
+dist/
+DerivedData/
+*.db
+*.sqlite*
+*.log
+._*
+.tmp/
+.antigravity/
+.codex/
+.codex-*
+.claude/
+.gemini/
+.agent_lock.json
+UNIFIED_AI_CHAT_HISTORY.md
+*.vault
+.aider*
+**/.env
+.env.local
+**/.env.local
+**/.env.*.local
+credentials.json
+service_account*.json
+*.pem
